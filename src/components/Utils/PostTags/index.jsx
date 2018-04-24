@@ -1,0 +1,34 @@
+import React, { Component } from "react";
+import _ from "lodash";
+import Link from "gatsby-link";
+import themeRebass from "../../_settings/rebassTheme"
+import {
+  Text,
+  Badge,
+} from "rebass";
+
+class PostTags extends Component {
+  render() {
+    const { tags } = this.props;
+    console.log(tags);
+    return <div className="post-tag-container">
+        {tags && tags.map(tag => (
+            <Link
+              key={tag}
+              style={{ textDecoration: 'none' }}
+              to={`/tags/${_.kebabCase(tag)}`}
+            >
+              <Badge
+                ml={0}
+                bg={this.props.badgeBgColor}
+                color={this.props.badgeColor}
+              >
+                {tag}
+              </Badge>
+            </Link>
+          ))}
+      </div>
+  }
+}
+
+export default PostTags;
