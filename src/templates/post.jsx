@@ -8,7 +8,6 @@ import { Container, Box, Banner } from 'rebass'
 
 export default class PostTemplate extends React.Component {
   render(view) {
-    console.log(this.props)
     const { slug } = this.props.pathContext
     const postNode = this.props.data.blogPosts
     const post = postNode
