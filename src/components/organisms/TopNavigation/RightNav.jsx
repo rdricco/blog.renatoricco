@@ -20,9 +20,9 @@ const LeftNav = () => {
           tags
         </NavRight>
 
-        <NavRight role="button" to="/sobre">
+        {/* <NavRight role="button" to="/sobre">
           sobre
-        </NavRight>
+        </NavRight> */}
       </Flex>;
 
 }

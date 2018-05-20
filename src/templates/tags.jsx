@@ -15,14 +15,14 @@ const TagList = styled.ul`
 
 const Tags = ({ pathContext, data }) => {
   const { tag } = pathContext
-  const { edges, totalCount } = data.allBlogPosts
+  const { edges, totalCount } = data.allBlogPostsMarkdown
 
   return (
     <Box my={4}>
       <Container py={4}>
         <FadeIn>
           <Row mx={0} pb={3}>
-            <Heading>all posts tagged as {tag}</Heading>
+            <Heading>Todos os posts com a tag {tag}</Heading>
           </Row>
 
           <TagList>
@@ -38,7 +38,7 @@ const Tags = ({ pathContext, data }) => {
             })}
           </TagList>
           <Link to="/tags">
-            <Text>All tags here</Text>
+            <Text>Clique aqui para ver todas as tags</Text>
           </Link>
         </FadeIn>
       </Container>
@@ -51,7 +51,7 @@ Tags.propTypes = {
     tag: PropTypes.string.isRequired,
   }),
   data: PropTypes.shape({
-    allBlogPosts: PropTypes.shape({
+    allBlogPostsMarkdown: PropTypes.shape({
       totalCount: PropTypes.number.isRequired,
       edges: PropTypes.arrayOf(
         PropTypes.shape({
@@ -69,8 +69,8 @@ export default Tags
 
 export const pageQuery = graphql`
   query TagPage($tag: String) {
-    allBlogPosts(
-      limit: 2000
+    allBlogPostsMarkdown(
+      limit: 3000
       sort: { fields: [date], order: DESC }
       filter: { tags: { in: [$tag] } }
     ) {

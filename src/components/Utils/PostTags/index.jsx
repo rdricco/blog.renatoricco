@@ -10,7 +10,6 @@ import {
 class PostTags extends Component {
   render() {
     const { tags } = this.props;
-    console.log(tags);
     return <div className="post-tag-container">
         {tags && tags.map(tag => (
             <Link

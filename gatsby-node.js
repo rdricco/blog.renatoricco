@@ -19,7 +19,7 @@ exports.onCreateNode = ({ node, boundActionCreators }) => {
       parent: node.id,
       children: [],
       internal: {
-        type: 'BlogPosts',
+        type: 'PocketBlogPostsMarkdown',
         mediaType: `text/markdown`,
         content: node.excerpt,
         contentDigest: node.internal.contentDigest,
@@ -31,39 +31,98 @@ exports.onCreateNode = ({ node, boundActionCreators }) => {
       slug: urlSlug(node.title),
       date: format(moment(node.time_added, 'X')),
       category: 'link',
-      tags: ['via pocket', 'link'],
+      tags: ['via pocket'],
       isPublished: true,
       excerpt: node.excerpt,
+      coverImage: node.image,
       image: node.image,
     })
   }
-  if (node.internal.type === `Posts`) {
+  
+  if (node.internal.type === `VideoPosts`) {
     createNode({
       id: `gcms-${node.id}`,
       parent: node.id,
       children: [],
       internal: {
-        type: 'BlogPosts',
+        type: 'BlogPostsMarkdown',
         mediaType: `text/markdown`,
-        content: node.html,
+        content: node.content,
         contentDigest: node.internal.contentDigest,
       },
-      html: node.html,
+      html: node.content,
+      content: node.content,
       title: node.title,
-      slug: urlSlug(node.slug),
+      slug: node.slug,
       category: node.category,
-      // tags: node.tags,
-      tags: ['graphcms', 'teste'],
+      tags: node.tags,
       date: format(node.date),
       createdAt: node.createdAt,
       updatedAt: node.updatedAt,
       isPublished: node.isPublished,
       coverImage: node.coverImage,
-      author: node.author,
+      author: 'renato ricco',
       image: null,
       url: null,
     })
   }
+
+
+  if (node.internal.type === `BandcampPosts`) {
+    createNode({
+      id: `gcms-${node.id}`,
+      parent: node.id,
+      children: [],
+      internal: {
+        type: 'BlogPostsMarkdown',
+        mediaType: `text/markdown`,
+        content: node.bandcampEmbeddedLink,
+        contentDigest: node.internal.contentDigest,
+      },
+      html: node.bandcampEmbeddedLink,
+      title: node.title,
+      slug: node.slug,
+      category: node.category,
+      tags: node.tags,
+      date: format(node.date),
+      createdAt: node.createdAt,
+      updatedAt: node.updatedAt,
+      isPublished: node.isPublished,
+      coverImage: node.coverImage,
+      author: 'renato ricco',
+      image: null,
+      url: null,
+    })
+  }
+
+  if (node.internal.type === `LinkPosts`) {
+    createNode({
+      id: `gcms-${node.id}`,
+      parent: node.id,
+      children: [],
+      internal: {
+        type: 'BlogPostsMarkdown',
+        mediaType: `text/markdown`,
+        content: node.content,
+        contentDigest: node.internal.contentDigest,
+      },
+      html: node.content,
+      content: node.content,
+      title: node.title,
+      slug: node.slug,
+      category: node.category,
+      tags: node.tags,
+      date: format(node.date),
+      createdAt: node.createdAt,
+      updatedAt: node.updatedAt,
+      isPublished: node.isPublished,
+      coverImage: node.coverImage,
+      author: 'renato ricco',
+      image: null,
+      url: node.linkurl,
+    })
+  }
+
 }
 
 
@@ -73,19 +132,21 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   return new Promise((resolve, reject) => {
     graphql(`
       {
-        posts: allBlogPosts(sort: { fields: [date], order: DESC }, filter: { isPublished: { ne: false } }) {
+        posts: allBlogPostsMarkdown(sort: { fields: [date], order: DESC }, filter: { isPublished: { ne: false } }) {
           edges {
             node {
               id
               isPublished
               date(formatString: "DD/MM/YYYY")
               html
+              content
               tags
               title
               slug
               url
               childMarkdownRemark {
                 excerpt
+                html
               }
             }
           }

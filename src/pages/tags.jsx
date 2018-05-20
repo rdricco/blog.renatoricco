@@ -14,10 +14,10 @@ export const TagList = styled.ul`
 `;
 
 const TagsPage = ({
-  data: { allBlogPosts: { group }, site: { siteMetadata: { title } } }
+  data: { allBlogPostsMarkdown: { group }, site: { siteMetadata: { title } } }
 }) => (
   <Box py={4}>
-    <Container pt={4}>
+    <Container pt={4} pb={100}>
       <FadeIn>
         <Helmet title={title} />
         <Row mx={0} pb={3}>
@@ -65,7 +65,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allBlogPosts(filter: { isPublished: { eq: true } }) {
+    allBlogPostsMarkdown(filter: { isPublished: { eq: true } }) {
       group(field: tags) {
         fieldValue
       }

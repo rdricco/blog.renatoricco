@@ -6,11 +6,11 @@ import { FadeIn } from 'animate-components'
 import Article from '../components/organisms/Article'
 import { Container, Box, Banner } from 'rebass'
 
+
 export default class PostTemplate extends React.Component {
   render(view) {
-    console.log(this.props)
     const { slug } = this.props.pathContext
-    const postNode = this.props.data.blogPosts
+    const postNode = this.props.data.blogPostsMarkdown
     const post = postNode
 
     return <Box key={post.id} pb={6}>
@@ -26,7 +26,7 @@ export default class PostTemplate extends React.Component {
 /* eslint no-undef: "off"*/
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
-    blogPosts(slug: { eq: $slug }) {
+    blogPostsMarkdown(slug: { eq: $slug }) {
       id
       slug
       title

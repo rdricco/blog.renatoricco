@@ -50,8 +50,8 @@ export default class MainLayout extends React.Component {
       }
       a:hover {
         text-decoration: underline;
-        text-decoration-color: "${themeVariables.fontAdditionalColor}";
-        background-color: 'red';
+        text-decoration-color: '#f3f3';
+        background-color: '#f3f3';
       }
       h1,
       h2,
@@ -68,14 +68,14 @@ export default class MainLayout extends React.Component {
           <meta name="description" content={config.siteDescription} />
         </Helmet>
 
-        <MainBox m={0} p={0} bg={'secondaryLightest'} color={themeVariables.fontColor}>
+        <MainBox m={0} p={0} bg={themeVariables.secondaryColor} color={themeVariables.fontColor}>
           <NavBar bg={themeVariables.primaryColor} color={themeVariables.fontColor} iconColor={themeVariables.fontAdditionalColor} />
 
           {children()}
 
           <Footer bg={themeVariables.primaryColor} color={themeVariables.fontColor} iconColor={themeVariables.fontAdditionalColor} />
 
-          <ScrollToTop showUnder={160} size={30} baseColor={themeVariables.fontColor}/>
+          <ScrollToTop showUnder={160} size={30} baseColor={themeVariables.fontColor} />
         </MainBox>
       </Provider>
   }
