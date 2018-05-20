@@ -155,6 +155,12 @@ module.exports = {
         query: require('./data/configQuery'),
       },
     },
+    {
+      resolve: `@debiki/gatsby-plugin-talkyard`,
+      options: {
+        talkyardServerUrl: 'https://comments-demo.talkyard.io'
+      }
+    },
     // {
     //   resolve: `gatsby-plugin-algolia`,
     //   options: {
@@ -229,7 +235,7 @@ module.exports = {
             },
             query: `
             {
-              allPosts(
+              allBlogPostsMarkdown(
                 limit: 1000,
                 sort: { order: DESC, fields: [date] },
                 filter: { isPublished: { ne: false } }
