@@ -1,24 +1,7 @@
 module.exports = `
 {
-  allPosts {
+  allVideoPosts {
     id
-    author {
-      id
-      name
-      biography
-      gitHubProfile
-      linkedInProfile
-      facebookProfile
-      instagramProfile
-      twitterProfile
-      avatar{
-        id
-        fileName
-        handle
-        width
-        height
-      }
-    }
     coverImage {
       id
       fileName
@@ -34,8 +17,69 @@ module.exports = `
     createdAt
     updatedAt
     isPublished
-    html
+    content
+    videoUrl
   }
+  allBandcampPosts {
+    id
+    coverImage {
+      id
+      fileName
+      handle
+      width
+      height
+    }
+    title
+    slug
+    category
+    tags
+    date
+    createdAt
+    updatedAt
+    isPublished
+    content
+    bandcampUrl
+    bandcampEmbeddedLink
+  }
+    allLinkPosts {
+      id
+      coverImage {
+        id
+        fileName
+        handle
+        width
+        height
+      }
+      title
+      slug
+      category
+      tags
+      date
+      createdAt
+      updatedAt
+      isPublished
+      content
+      linkurl
+    }
+    allBlogPosts {
+      id
+      coverImage {
+        id
+        fileName
+        handle
+        width
+        height
+      }
+      title
+      slug
+      category
+      tags
+      date
+      createdAt
+      updatedAt
+      isPublished
+      content
+    }
 }
 
-`;
+`

@@ -23,11 +23,10 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-next',
-    'gatsby-plugin-inoreader',
     `gatsby-plugin-lodash`,
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
-    // `gatsby-plugin-accessibilityjs`,
+    `gatsby-plugin-accessibilityjs`,
     {
       resolve: 'gatsby-plugin-svgr',
       options: {
@@ -55,8 +54,7 @@ module.exports = {
         color: config.themeColor,
       },
     },
-    // `gatsby-plugin-styled-components`,
-    // 'gatsby-plugin-material-ui',
+    `gatsby-plugin-styled-components`,
     'gatsby-plugin-sharp',
     `gatsby-transformer-screenshot`,
     'gatsby-transformer-sharp',
@@ -69,6 +67,15 @@ module.exports = {
           `gatsby-remark-autolink-headers`,
           `gatsby-remark-widows`,
           `gatsby-remark-responsive-iframe`,
+          {
+            resolve: "gatsby-remark-embed-video",
+            options: {
+              width: 800,
+              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
+              height: 400, // Optional: Overrides optional.ratio
+              related: false //Optional: Will remove related videos from the end of an embedded YouTube video.
+            }
+          },
           {
             resolve: 'gatsby-remark-external-links',
             options: {
@@ -99,13 +106,13 @@ module.exports = {
         path: './src/pages',
       },
     },
-    {
-      resolve: 'gatsby-source-lastfm',
-      options: {
-        api_key: process.env.LASTFM_APIKEY,
-        username: process.env.LASTFM_USERNAME,
-      },
-    },
+    // {
+    //   resolve: 'gatsby-source-lastfm',
+    //   options: {
+    //     api_key: process.env.LASTFM_APIKEY,
+    //     username: process.env.LASTFM_USERNAME,
+    //   },
+    // },
     {
       resolve: `gatsby-source-pocket`,
       options: {
@@ -116,25 +123,14 @@ module.exports = {
         getCurrentWeekOnly: `n`,
         stateFilterString: 'all',
         tagFilter: true,
-        tagFilterString: 'shared',
         // tagFilterString: '_untagged_',
+        tagFilterString: 'shared',
         favouriteFilter: false,
         favouriteFilterValue: 0,
         searchFilter: false,
         searchFilterString: 'These 21 things',
         domainFilter: false,
         domainFilterString: 'buzzfeed.com',
-      },
-    },
-    {
-      resolve: `gatsby-source-faker`,
-      // derive schema from faker's options
-      options: {
-        schema: {
-          name: ['firstName', 'lastName'],
-          count: 3, // how many fake objects you need
-          type: 'NameData', // Name of the graphql query node
-        },
       },
     },
     {
@@ -160,61 +156,6 @@ module.exports = {
       },
     },
     // {
-    //   resolve: 'gatsby-source-apiserver',
-    //   options: {
-    //     // Type prefix of entities from server
-    //     typePrefix: 'internal__',
-
-    //     // The url, this should be the endpoint you are attempting to pull data from
-    //     url: `https://www.inoreader.com/reader/api/0`,
-
-    //     method: 'get',
-
-    //     headers: {
-    //       'Content-Type': 'application/json'
-    //     },
-
-    //     // Request body
-    //     data: {
-
-    //     },
-
-    //     // Name of the data to be downloaded.  Will show in graphQL or be saved to a file
-    //     // using this name. i.e. posts.json
-    //     name: `inoreader`,
-
-    //     // Nested level of entities in repsonse object, example: `data.posts`
-    //     entityLevel: `data.inoreader`,
-
-    //     // Simple authentication, if optional, set it null
-    //     auth: {
-    //       username: 'myusername',
-    //       password: 'supersecretpassword1234'
-    //     },
-
-    //     // Optional payload key name if your api returns your payload in a different key
-    //     // Default will use the full response from the http request of the url
-    //     // payloadKey: `body`,
-
-    //     // Optionally save the JSON data to a file locally
-    //     // Default is false
-    //     localSave: true,
-
-    //     //  Required folder path where the data should be saved if using localSave option
-    //     //  This folder must already exist
-    //     path: `${__dirname}/src/data/auth/`,
-
-    //     // Optionally include some output when building
-    //     // Default is false
-    //     verboseOutput: true, // For debugging purposes
-
-    //     // Optionally skip creating nodes in graphQL.  Use this if you only want
-    //     // The data to be saved locally
-    //     // Default is false
-    //     skipCreateNode: false, // skip import to graphQL, only use if localSave is all you want
-    //   }
-    // },
-    // {
     //   resolve: `gatsby-plugin-algolia`,
     //   options: {
     //     appId: process.env.ALGOLIA_ID,
@@ -224,99 +165,90 @@ module.exports = {
     //     chunkSize: 1000,
     //   },
     // },
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: process.env.GOOGLEANALYTICS_ID,
-    //     head: false,
-    //     anonymize: true,
-    //     respectDNT: true,
-    //   },
-    // },
-    // {
-    //   resolve: `gatsby-plugin-hotjar`,
-    //   options: {
-    //     id: process.env.HOTJAR_ID,
-    //     sv: process.env.HOTJAR_SNIPPET_VERSION,
-    //   },
-    // },
-    // {
-    //   resolve: `gatsby-plugin-facebook-analytics`,
-    //   options: {
-    //     appId: process.env.FACEBOOKANALYTICS_ID,
-    //     includeInDevelopment: false,
-    //     debug: false,
-    //     language: 'en_US',
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOOGLEANALYTICS_ID,
+        head: false,
+        anonymize: true,
+        respectDNT: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: process.env.HOTJAR_ID,
+        sv: process.env.HOTJAR_SNIPPET_VERSION,
+      },
+    },
     'gatsby-plugin-sitemap',
-    // {
-    //   resolve: `gatsby-plugin-manifest`,
-    //   options: {
-    //     name: 'Iandi Starter',
-    //     short_name: 'Iandi Starter',
-    //     start_url: '/Iandi-Gatsby-Starter/',
-    //     background_color: '#fff',
-    //     theme_color: config.themeColor,
-    //     display: 'minimal-ui',
-    //     icons: [
-    //       {
-    //         src: 'favicon.png',
-    //         sizes: '512x512',
-    //         type: 'image/png',
-    //       },
-    //     ],
-    //   },
-    // },
-    // 'gatsby-plugin-offline',
-    // {
-    //   resolve: `gatsby-plugin-feed`,
-    //   options: {
-    //     query: `
-    //     {
-    //       site {
-    //         siteMetadata {
-    //           title
-    //           description
-    //           siteUrl
-    //           site_url: siteUrl
-    //         }
-    //       }
-    //     }
-    //   `,
-    //     feeds: [
-    //       {
-    //         serialize: ({ query: { site, allPosts } }) => {
-    //           return allPosts.edges.map(edge => {
-    //             return Object.assign({}, edge.node, {
-    //               description: config.siteDescription,
-    //               url: site.siteMetadata.siteUrl + edge.node.slug,
-    //               guid: site.siteMetadata.siteUrl + edge.node.slug,
-    //             })
-    //           })
-    //         },
-    //         query: `
-    //         {
-    //           allPosts(
-    //             limit: 1000,
-    //             sort: { order: DESC, fields: [date] },
-    //             filter: { isPublished: { ne: false } }
-    //           ) {
-    //             edges {
-    //               node {
-    //                 title
-    //                 date
-    //                 html
-    //               }
-    //             }
-    //           }
-    //         }
-    //       `,
-    //         output: '/rss.xml',
-    //       },
-    //     ],
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'renato ricco',
+        short_name: 'blog_renatoricco',
+        start_url: '/',
+        background_color: '#fff',
+        theme_color: config.themeColor,
+        display: 'minimal-ui',
+        icons: [
+          {
+            src: 'favicon.png',
+            sizes: '512x512',
+            type: 'image/png',
+          },
+        ],
+      },
+    },
+    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+        {
+          site {
+            siteMetadata {
+              title
+              description
+              siteUrl
+              site_url: siteUrl
+            }
+          }
+        }
+      `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allPosts } }) => {
+              return allPosts.edges.map(edge => {
+                return Object.assign({}, edge.node, {
+                  description: config.siteDescription,
+                  url: site.siteMetadata.siteUrl + edge.node.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.slug,
+                })
+              })
+            },
+            query: `
+            {
+              allPosts(
+                limit: 1000,
+                sort: { order: DESC, fields: [date] },
+                filter: { isPublished: { ne: false } }
+              ) {
+                edges {
+                  node {
+                    title
+                    date
+                    html
+                  }
+                }
+              }
+            }
+          `,
+            output: '/rss.xml',
+          },
+        ],
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-netlify-cms`,
     //   options: {

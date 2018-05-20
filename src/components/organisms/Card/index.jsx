@@ -5,7 +5,6 @@ import { Box, Row, Small, Heading, Text, Card, Link } from 'rebass'
 import PostTags from '../../Utils/PostTags/'
 import LinkIcon from 'react-icons/lib/fa/chain'
 import rebassTheme from '../../_settings/rebassTheme'
-import TalkyardCommentsIframe from '@debiki/gatsby-plugin-talkyard'
 
 const CardArticle = styled(Card)`
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -28,17 +27,9 @@ class Article extends React.Component {
         <Box>
           <Row mx={0} mb={1} className="postTitle">
             <Heading>
-              {this.props.url != null ? (
-                <Box color="tealdarker" mb={2}>
-                  <Link href={this.props.url} className="postURL">
-                    <LinkIcon size={'25'} /> {this.props.title}
-                  </Link>
-                </Box>
-              ) : (
-                <GLink to={this.props.slug} className="postURL">
-                  {this.props.title}
-                </GLink>
-              )}
+              <GLink to={this.props.slug} className="postURL">
+                {this.props.title}
+              </GLink>
             </Heading>
           </Row>
           <Row mx={0} mb={4} className="postDate">
@@ -50,20 +41,27 @@ class Article extends React.Component {
           {this.props.html != null ? (
             <div dangerouslySetInnerHTML={{ __html: this.props.html }} />
           ) : null}
-
         </Box>
 
-          {this.props.excerpt != null ? (
-            <Box mb={4}>
-              <Text mb={2}>{this.props.excerpt}</Text>
+        {this.props.excerpt != null ? (
+          <Box mb={4}>
+            <Text mb={2}>{this.props.excerpt}</Text>
+            <Small>
+              <GLink to={this.props.slug} className="postURL">
+                Veja Mais
+              </GLink>
+            </Small>
+          </Box>
+        ) : null}
 
-              <Small>
-                <GLink to={this.props.slug} className="postURL">
-                  Veja Mais
-                </GLink>
-              </Small>
-            </Box>
-          ) : null}
+        {this.props.url != null ? (
+          <Box color="tealdarker" mb={2}>
+            <Text color={'black'}>Link:</Text>
+            <Link href={this.props.url} className="postURL">
+              <Text color={'black'}>{this.props.url}</Text>
+            </Link>
+          </Box>
+        ) : null}
 
         <Row mx={0} mb={1} mt={4} className="postTags">
           <PostTags
@@ -72,10 +70,6 @@ class Article extends React.Component {
             badgeColor={this.props.badgeColor}
           />
         </Row>
-
-        <Box>
-          <TalkyardCommentsIframe />
-        </Box>
       </CardArticle>
     )
   }
