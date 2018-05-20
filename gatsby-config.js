@@ -234,21 +234,34 @@ module.exports = {
               })
             },
             query: `
-            {
-              allBlogPostsMarkdown(
-                limit: 1000,
-                sort: { order: DESC, fields: [date] },
-                filter: { isPublished: { ne: false } }
-              ) {
-                edges {
-                  node {
-                    title
-                    date
-                    html
-                  }
-                }
-              }
-            }
+             {
+               posts: allBlogPostsMarkdown(sort: {
+                 fields: [date],
+                 order: DESC
+               }, filter: {
+                 isPublished: {
+                   ne: false
+                 }
+               }) {
+                 edges {
+                   node {
+                     id
+                     isPublished
+                     date(formatString: "DD/MM/YYYY")
+                     html
+                     content
+                     tags
+                     title
+                     slug
+                     url
+                     childMarkdownRemark {
+                       excerpt
+                       html
+                     }
+                   }
+                 }
+               }
+             }
           `,
             output: '/rss.xml',
           },
