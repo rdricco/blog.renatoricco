@@ -207,67 +207,67 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
-    {
-      resolve: `gatsby-plugin-feed`,
-      options: {
-        query: `
-        {
-          site {
-            siteMetadata {
-              title
-              description
-              siteUrl
-              site_url: siteUrl
-            }
-          }
-        }
-      `,
-        feeds: [
-          {
-            serialize: ({ query: { site, allPosts } }) => {
-              return allPosts.edges.map(edge => {
-                return Object.assign({}, edge.node, {
-                  description: config.siteDescription,
-                  url: site.siteMetadata.siteUrl + edge.node.slug,
-                  guid: site.siteMetadata.siteUrl + edge.node.slug,
-                })
-              })
-            },
-            query: `
-             {
-               posts: allBlogPostsMarkdown(sort: {
-                 fields: [date],
-                 order: DESC
-               }, filter: {
-                 isPublished: {
-                   ne: false
-                 }
-               }) {
-                 edges {
-                   node {
-                     id
-                     isPublished
-                     date(formatString: "DD/MM/YYYY")
-                     html
-                     content
-                     tags
-                     title
-                     slug
-                     url
-                     childMarkdownRemark {
-                       excerpt
-                       html
-                     }
-                   }
-                 }
-               }
-             }
-          `,
-            output: '/rss.xml',
-          },
-        ],
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-feed`,
+    //   options: {
+    //     query: `
+    //     {
+    //       site {
+    //         siteMetadata {
+    //           title
+    //           description
+    //           siteUrl
+    //           site_url: siteUrl
+    //         }
+    //       }
+    //     }
+    //   `,
+    //     feeds: [
+    //       {
+    //         serialize: ({ query: { site, allPosts } }) => {
+    //           return allPosts.edges.map(edge => {
+    //             return Object.assign({}, edge.node, {
+    //               description: config.siteDescription,
+    //               url: site.siteMetadata.siteUrl + edge.node.slug,
+    //               guid: site.siteMetadata.siteUrl + edge.node.slug,
+    //             })
+    //           })
+    //         },
+    //         query: `
+    //          {
+    //            posts: allBlogPostsMarkdown(sort: {
+    //              fields: [date],
+    //              order: DESC
+    //            }, filter: {
+    //              isPublished: {
+    //                ne: false
+    //              }
+    //            }) {
+    //              edges {
+    //                node {
+    //                  id
+    //                  isPublished
+    //                  date(formatString: "DD/MM/YYYY")
+    //                  html
+    //                  content
+    //                  tags
+    //                  title
+    //                  slug
+    //                  url
+    //                  childMarkdownRemark {
+    //                    excerpt
+    //                    html
+    //                  }
+    //                }
+    //              }
+    //            }
+    //          }
+    //       `,
+    //         output: '/rss.xml',
+    //       },
+    //     ],
+    //   },
+    // },
     // {
     //   resolve: `gatsby-plugin-netlify-cms`,
     //   options: {
