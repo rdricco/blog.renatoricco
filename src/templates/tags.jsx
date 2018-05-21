@@ -17,9 +17,8 @@ const Tags = ({ pathContext, data }) => {
   const { tag } = pathContext
   const { edges, totalCount } = data.allBlogPostsMarkdown
 
-  return (
-    <Box my={4}>
-      <Container py={4}>
+  return <Box my={4}>
+      <Container py={4} pb={100}>
         <FadeIn>
           <Row mx={0} pb={3}>
             <Heading>Todos os posts com a tag {tag}</Heading>
@@ -28,13 +27,11 @@ const Tags = ({ pathContext, data }) => {
           <TagList>
             {edges.map(({ node }) => {
               const { slug, title } = node
-              return (
-                <Row key={slug} mx={0} pb={2}>
+              return <Row key={slug} mx={0} pb={2}>
                   <Subhead>
                     <Link to={'/' + slug}>{title}</Link>
                   </Subhead>
                 </Row>
-              )
             })}
           </TagList>
           <Link to="/tags">
@@ -43,7 +40,6 @@ const Tags = ({ pathContext, data }) => {
         </FadeIn>
       </Container>
     </Box>
-  )
 }
 
 Tags.propTypes = {
