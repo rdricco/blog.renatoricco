@@ -17,7 +17,7 @@ const Tags = ({ pathContext, data }) => {
   const { tag } = pathContext
   const { edges, totalCount } = data.allBlogPostsMarkdown
 
-  return <Box my={4}>
+  return <Box my={4} pb={100}>
       <Container py={4} pb={100}>
         <FadeIn>
           <Row mx={0} pb={3}>
