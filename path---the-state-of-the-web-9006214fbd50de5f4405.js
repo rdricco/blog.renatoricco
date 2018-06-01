@@ -1,2 +1,2 @@
-webpackJsonp([93478031651399],{1970:function(t,e){t.exports={data:{blogPostsMarkdown:{id:"gcms-cjhbajk161z9d0158lpdrontf",slug:"the-state-of-the-web",title:"The State of the Web",date:"01/09/2017",tags:["Link","Internet","Dev","Tech"],category:"Link",html:"",childMarkdownRemark:{html:""}}},pathContext:{slug:"the-state-of-the-web"}}}});
+webpackJsonp([93478031651399],{1974:function(t,e){t.exports={data:{blogPostsMarkdown:{id:"gcms-cjhbajk161z9d0158lpdrontf",slug:"the-state-of-the-web",title:"The State of the Web",date:"01/09/2017",tags:["Link","Internet","Dev","Tech"],category:"Link",html:"",childMarkdownRemark:{html:""}}},pathContext:{slug:"the-state-of-the-web"}}}});
 //# sourceMappingURL=path---the-state-of-the-web-9006214fbd50de5f4405.js.map
