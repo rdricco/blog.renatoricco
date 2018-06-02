@@ -60,6 +60,7 @@
 <url> <loc>https://blog.renatoricco.com/58</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/59</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/60</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.renatoricco.com/espiral-da-loucura-by-deafkids</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/tell-me-how-you-really-feel-by-courtney-barnett</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/the-story-of-funk-one-nation-under-a-groove</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/ozomatli-coming-war-2018</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -657,6 +658,8 @@
 <url> <loc>https://blog.renatoricco.com/volume-i-by-obmj</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/the-art-of-asking-or-amanda-palmer</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/tags/bandcamp/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.renatoricco.com/tags/noise/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.renatoricco.com/tags/experimental/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/tags/indie/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/tags/video/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/tags/funk/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -698,7 +701,6 @@
 <url> <loc>https://blog.renatoricco.com/tags/trash/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/tags/grind/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/tags/blues/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.renatoricco.com/tags/noise/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/tags/hardcore/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/tags/sxe/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/tags/punk/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
