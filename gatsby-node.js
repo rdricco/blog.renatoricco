@@ -19,7 +19,7 @@ exports.onCreateNode = ({ node, boundActionCreators }) => {
       parent: node.id,
       children: [],
       internal: {
-        type: 'PocketBlogPostsMarkdown',
+        type: 'BlogPostsMarkdown',
         mediaType: `text/markdown`,
         content: node.excerpt,
         contentDigest: node.internal.contentDigest,
