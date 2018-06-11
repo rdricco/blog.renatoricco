@@ -1,0 +1,2 @@
+webpackJsonp([0x9d651989709e],{2307:function(t,a){t.exports={data:{blogPostsMarkdown:{id:"pckt-1740729788",slug:"pa-cola",title:"PA&COLA",date:"12/05/2017",tags:["via pocket"],category:"link",html:"",childMarkdownRemark:{html:""}}},pathContext:{slug:"pa-cola"}}}});
+//# sourceMappingURL=path---pa-cola-2770740c930b1affe96b.js.map
