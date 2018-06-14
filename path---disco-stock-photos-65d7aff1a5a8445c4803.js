@@ -1,2 +1,2 @@
-webpackJsonp([0xe5697cd11bae],{1959:function(o,t){o.exports={data:{blogPostsMarkdown:{id:"gcms-cjhbf8kmr0hvd0159tqi8rm4x",slug:"disco-stock-photos",title:"Disco stock photos",date:"17/05/2016",tags:["Link","Design","70s","Photos"],category:"Link",html:"",childMarkdownRemark:{html:""}}},pathContext:{slug:"disco-stock-photos"}}}});
+webpackJsonp([0xe5697cd11bae],{1960:function(o,t){o.exports={data:{blogPostsMarkdown:{id:"gcms-cjhbf8kmr0hvd0159tqi8rm4x",slug:"disco-stock-photos",title:"Disco stock photos",date:"17/05/2016",tags:["Link","Design","70s","Photos"],category:"Link",html:"",childMarkdownRemark:{html:""}}},pathContext:{slug:"disco-stock-photos"}}}});
 //# sourceMappingURL=path---disco-stock-photos-65d7aff1a5a8445c4803.js.map
