@@ -1,2 +1,2 @@
-webpackJsonp([0xb622db0091fc],{2892:function(t,a){t.exports={data:{blogPostsMarkdown:{id:"pckt-984740112",slug:"what-time-does-capitalism-end",title:"What Time Does Capitalism End?",date:"17/07/2015",tags:["via pocket"],category:"link",html:"",childMarkdownRemark:{html:""}}},pathContext:{slug:"what-time-does-capitalism-end"}}}});
+webpackJsonp([0xb622db0091fc],{2896:function(t,a){t.exports={data:{blogPostsMarkdown:{id:"pckt-984740112",slug:"what-time-does-capitalism-end",title:"What Time Does Capitalism End?",date:"17/07/2015",tags:["via pocket"],category:"link",html:"",childMarkdownRemark:{html:""}}},pathContext:{slug:"what-time-does-capitalism-end"}}}});
 //# sourceMappingURL=path---what-time-does-capitalism-end-07c90dd8626ccbe84a38.js.map
