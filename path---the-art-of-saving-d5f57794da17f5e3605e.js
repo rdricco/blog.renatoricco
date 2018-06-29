@@ -1,2 +1,2 @@
-webpackJsonp([0xda419aaace6d],{2690:function(a,t){a.exports={data:{blogPostsMarkdown:{id:"gcms-cjhb8zyrk1hib0109qncx6vlp",slug:"the-art-of-saving",title:"The Art of Saving",date:"08/12/2014",tags:["Link","Design","Video Games"],category:"Link",html:"",childMarkdownRemark:{html:""}}},pathContext:{slug:"the-art-of-saving"}}}});
+webpackJsonp([0xda419aaace6d],{2706:function(a,t){a.exports={data:{blogPostsMarkdown:{id:"gcms-cjhb8zyrk1hib0109qncx6vlp",slug:"the-art-of-saving",title:"The Art of Saving",date:"08/12/2014",tags:["Link","Design","Video Games"],category:"Link",html:"",childMarkdownRemark:{html:""}}},pathContext:{slug:"the-art-of-saving"}}}});
 //# sourceMappingURL=path---the-art-of-saving-d5f57794da17f5e3605e.js.map
