@@ -1,2 +1,2 @@
-webpackJsonp([98568306841400],{2380:function(t,a){t.exports={data:{blogPostsMarkdown:{id:"pckt-1084082089",slug:"punk-typography",title:"Punk Typography",date:"26/10/2015",tags:["via pocket"],category:"link",html:"",childMarkdownRemark:{html:""}}},pathContext:{slug:"punk-typography"}}}});
+webpackJsonp([98568306841400],{2379:function(t,a){t.exports={data:{blogPostsMarkdown:{id:"pckt-1084082089",slug:"punk-typography",title:"Punk Typography",date:"26/10/2015",tags:["via pocket"],category:"link",html:"",childMarkdownRemark:{html:""}}},pathContext:{slug:"punk-typography"}}}});
 //# sourceMappingURL=path---punk-typography-c9d0c15bf6d1c0c8cfbe.js.map
