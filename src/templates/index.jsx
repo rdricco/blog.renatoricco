@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 const _ = require('lodash')
 const slugify = require('lodash-addons')
-import config from '../../data/SiteConfig'
 import { themeMode, themeVariables } from '../data/themeStore'
 import { view } from 'react-easy-state'
 import Helmet from 'react-helmet'
@@ -9,13 +8,9 @@ import Link from 'gatsby-link'
 import styled from "styled-components";
 import { Flex, Box, Container, ButtonOutline } from 'rebass'
 import { FadeIn } from 'animate-components'
-import Button from '../components/atoms/Button/'
 import Card from '../components/organisms/Card'
+import Post from '../components/organisms/Post'
 import Banner from '../components/molecules/Banner'
-import ChevronLeft from 'react-icons/lib/fa/angle-left'
-import ChevronRight from 'react-icons/lib/fa/angle-right'
-import SEO from '../components/Utils/SEO'
-
 
 export default class BlogPage extends React.Component {
   render(view) {
@@ -60,7 +55,7 @@ export default class BlogPage extends React.Component {
 
           <Container pt={4}>
             {group.map(({ node }) => (
-              <Card
+              <Post
                 key={node.id}
                 id={node.id}
                 slug={node.slug}
