@@ -1,2 +1,0 @@
-webpackJsonp([75847278414292],{2693:function(t,e){t.exports={data:{blogPostsMarkdown:{id:"gcms-cjhbdpe7002y801572z4liz4y",slug:"the-100-greatest-jazz-album-covers",title:"The 100 Greatest Jazz Album Covers",date:"04/11/2015",tags:["Link","Cover Art","Design","Jazz"],category:"Link",html:"",childMarkdownRemark:{html:""}}},pathContext:{slug:"the-100-greatest-jazz-album-covers"}}}});
-//# sourceMappingURL=path---the-100-greatest-jazz-album-covers-928b0b739776652bed84.js.map

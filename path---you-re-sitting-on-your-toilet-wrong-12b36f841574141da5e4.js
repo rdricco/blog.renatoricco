@@ -1,2 +1,0 @@
-webpackJsonp([96442723655426],{2953:function(t,o){t.exports={data:{blogPostsMarkdown:{id:"pckt-715892367",slug:"you-re-sitting-on-your-toilet-wrong",title:"You’re Sitting on Your Toilet Wrong",date:"19/09/2014",tags:["via pocket"],category:"link",html:"",childMarkdownRemark:{html:""}}},pathContext:{slug:"you-re-sitting-on-your-toilet-wrong"}}}});
-//# sourceMappingURL=path---you-re-sitting-on-your-toilet-wrong-12b36f841574141da5e4.js.map

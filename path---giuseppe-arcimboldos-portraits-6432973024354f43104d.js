@@ -1,2 +1,0 @@
-webpackJsonp([67320329426753],{2061:function(t,o){t.exports={data:{blogPostsMarkdown:{id:"gcms-cjhbduwpa049m0115fz81r1rl",slug:"giuseppe-arcimboldo's-portraits",title:"Giuseppe Arcimboldo's portraits",date:"18/10/2016",tags:["Link","Art"],category:"Link",html:"",childMarkdownRemark:{html:""}}},pathContext:{slug:"giuseppe-arcimboldo's-portraits"}}}});
-//# sourceMappingURL=path---giuseppe-arcimboldos-portraits-6432973024354f43104d.js.map

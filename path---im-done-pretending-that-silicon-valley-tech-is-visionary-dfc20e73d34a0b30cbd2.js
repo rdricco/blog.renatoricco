@@ -1,2 +1,0 @@
-webpackJsonp([4298083308460],{2145:function(t,i){t.exports={data:{blogPostsMarkdown:{id:"gcms-cjhbdyyb705580102n1rxxmu7",slug:"i'm-done-pretending-that-silicon-valley-tech-is-visionary",title:"I’m done pretending that Silicon Valley tech is visionary",date:"14/10/2016",tags:["Link","Tech","Internet","TV Shows"],category:"Link",html:"",childMarkdownRemark:{html:""}}},pathContext:{slug:"i'm-done-pretending-that-silicon-valley-tech-is-visionary"}}}});
-//# sourceMappingURL=path---im-done-pretending-that-silicon-valley-tech-is-visionary-dfc20e73d34a0b30cbd2.js.map

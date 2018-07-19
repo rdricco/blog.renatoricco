@@ -1,0 +1,2 @@
+webpackJsonp([0xa906113c6fdc],{1846:function(t,a){t.exports={data:{blogPostsMarkdown:{id:"gcms-cjhbagb1u1xh50122skbwgd4i",slug:"an-intimate-history-of-antifa",title:"An Intimate History of Antifa",date:"23/08/2017",tags:["Link","Culture"],category:"Link",url:"https://www.newyorker.com/books/page-turner/an-intimate-history-of-antifa",html:"",childMarkdownRemark:{html:""}}},pathContext:{slug:"an-intimate-history-of-antifa"}}}});
+//# sourceMappingURL=path---an-intimate-history-of-antifa-8a33271c350b925ff25d.js.map
