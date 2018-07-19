@@ -11,9 +11,9 @@ export const themeMode = store(
 
 export const themeVariables = store({
          primaryColor: 'white',
-         secondaryColor: 'lightGrey',
+         secondaryColor: 'white',
          additionalColor: 'tealdarker',
-         tagBadgeBgColor: 'tealdarker',
+         tagBadgeBgColor: 'black',
          fontColor: 'black',
          fontAdditionalColor: 'tealdarker',
          headerFont:

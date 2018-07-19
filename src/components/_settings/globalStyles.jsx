@@ -12,6 +12,7 @@ html {
   overflow-y: scroll;
 }
 body {
+  transition-duration: 0.5s;
   margin: 0 auto;
   min-height: 100vh;
   box-sizing: border-box;
