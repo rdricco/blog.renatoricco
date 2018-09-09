@@ -144,6 +144,10 @@
       "path---dr-ring-ding-ska-vaganza-the-exorcist-7fad18f36435665a28f9.js",
       "path---dr-ring-ding-ska-vaganza-the-exorcist-7fad18f36435665a28f9.js.map"
     ],
+    "path---what-is-brutalist-design-and-why-we-need-it": [
+      "path---what-is-brutalist-design-and-why-we-need-it-b5692366c0c79db0c78a.js",
+      "path---what-is-brutalist-design-and-why-we-need-it-b5692366c0c79db0c78a.js.map"
+    ],
     "path---ssgs-part-1-static-vs-dynamic-websites": [
       "path---ssgs-part-1-static-vs-dynamic-websites-2de96e00cb67fba5ed3c.js",
       "path---ssgs-part-1-static-vs-dynamic-websites-2de96e00cb67fba5ed3c.js.map"
@@ -569,8 +573,8 @@
       "path---the-party-drug-that-will-give-you-a-sweet-high-04406f37c844287fee64.js.map"
     ],
     "path---your-next-computer-should-be-a-desktop": [
-      "path---your-next-computer-should-be-a-desktop-756c09552e9877dfad0e.js",
-      "path---your-next-computer-should-be-a-desktop-756c09552e9877dfad0e.js.map"
+      "path---your-next-computer-should-be-a-desktop-7a08ea53a35547c88ee1.js",
+      "path---your-next-computer-should-be-a-desktop-7a08ea53a35547c88ee1.js.map"
     ],
     "path---a-morte-do-curriculum-vitae": [
       "path---a-morte-do-curriculum-vitae-4567a902001388f1e781.js",
@@ -687,10 +691,6 @@
     "path---rainer-maria-st": [
       "path---rainer-maria-st-10d210dc58b92b4b2bbd.js",
       "path---rainer-maria-st-10d210dc58b92b4b2bbd.js.map"
-    ],
-    "path---brutalist-design-is-the-bad-influence-we-all-need": [
-      "path---brutalist-design-is-the-bad-influence-we-all-need-0623be70db2fae57da87.js",
-      "path---brutalist-design-is-the-bad-influence-we-all-need-0623be70db2fae57da87.js.map"
     ],
     "path---84": [
       "path---84-ec245af2ca0e0155d6ce.js",
@@ -969,8 +969,8 @@
       "path---marketing-automation-is-like-a-second-brain-for-your-business-c8b878c3961265a5271e.js.map"
     ],
     "path---tags-via-pocket": [
-      "path---tags-via-pocket-da1e3ab6a929d3fd5f9b.js",
-      "path---tags-via-pocket-da1e3ab6a929d3fd5f9b.js.map"
+      "path---tags-via-pocket-82a0b140bb6d4f7f74b4.js",
+      "path---tags-via-pocket-82a0b140bb6d4f7f74b4.js.map"
     ],
     "path---the-international-noise-conspiracy-capitalism-stole-my-virginity": [
       "path---the-international-noise-conspiracy-capitalism-stole-my-virginity-ff128d937f557b18988d.js",
@@ -2841,8 +2841,8 @@
       "path---recreated-vigo-from-ghostbuster-ii-for-my-wife-s-birthday-bd7ae5d88317f5f38ce2.js.map"
     ],
     "path---70": [
-      "path---70-19c3f666d66a6e22ae9b.js",
-      "path---70-19c3f666d66a6e22ae9b.js.map"
+      "path---70-0a782eb166fc4efcc5b1.js",
+      "path---70-0a782eb166fc4efcc5b1.js.map"
     ],
     "path---a-droga-mais-perigosa": [
       "path---a-droga-mais-perigosa-71695f2a389a6c52b82b.js",
@@ -2897,8 +2897,8 @@
       "path---the-fermi-paradox-b62f0bf53d396b5352bb.js.map"
     ],
     "path---code": [
-      "path---code-85e4ece9633c59e2a8b5.js",
-      "path---code-85e4ece9633c59e2a8b5.js.map"
+      "path---code-036d35282bc1a7656aa9.js",
+      "path---code-036d35282bc1a7656aa9.js.map"
     ],
     "path---don-t-use-the-wiki-or-a-look-into-the-curiosity-of-the-player": [
       "path---don-t-use-the-wiki-or-a-look-into-the-curiosity-of-the-player-6183557eb25fb21499bb.js",
@@ -2981,8 +2981,8 @@
       "path---62-031be36f4c80c077651d.js.map"
     ],
     "path---2": [
-      "path---2-a84c98b5c6c8b22fff4c.js",
-      "path---2-a84c98b5c6c8b22fff4c.js.map"
+      "path---2-d2237912bbb8302cd69e.js",
+      "path---2-d2237912bbb8302cd69e.js.map"
     ],
     "path---dave-snyder-art-is-not-design": [
       "path---dave-snyder-art-is-not-design-bf331321e4b7a606210b.js",
@@ -4345,8 +4345,8 @@
       "path---liberalism-and-gentrification-022ed500e39318924842.js.map"
     ],
     "path---14": [
-      "path---14-7dcea22d4dc26a7ca45d.js",
-      "path---14-7dcea22d4dc26a7ca45d.js.map"
+      "path---14-23982c84a0fb994a97f1.js",
+      "path---14-23982c84a0fb994a97f1.js.map"
     ],
     "path---galinha-preta-se-eu-cuidasse-mais-da-minha-vida": [
       "path---galinha-preta-se-eu-cuidasse-mais-da-minha-vida-aa7d851a61c8dc70c038.js",
@@ -4393,8 +4393,8 @@
       "path---comercial-de-ecstasy-na-band-b83aab3e6a1a02caf700.js.map"
     ],
     "app": [
-      "app-5ffca08b13d6ee155b9e.js",
-      "app-5ffca08b13d6ee155b9e.js.map"
+      "app-920827fee5187ed536d5.js",
+      "app-920827fee5187ed536d5.js.map"
     ],
     "path---entre-rios-a-urbanizacao-de-sao-paulo": [
       "path---entre-rios-a-urbanizacao-de-sao-paulo-193c9639ea3efbb63679.js",
