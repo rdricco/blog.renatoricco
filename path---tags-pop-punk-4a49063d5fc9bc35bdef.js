@@ -1,2 +1,2 @@
-webpackJsonp([0xf0fcec98aafa],{2621:function(e,n){e.exports={data:{allBlogPostsMarkdown:{totalCount:1,edges:[{node:{id:"gcms-cjh46c62f28x801692beo1cke",date:"2015-02-16T00:00:00.000+00:00",title:"Millencolin - Sense & Sensibility",slug:"millencolin-sense-and-sensibility",tags:["Video","Pop Punk","Music Video"]}}]}},pathContext:{tag:"Pop Punk"}}}});
+webpackJsonp([0xf0fcec98aafa],{2619:function(e,n){e.exports={data:{allBlogPostsMarkdown:{totalCount:1,edges:[{node:{id:"gcms-cjh46c62f28x801692beo1cke",date:"2015-02-16T00:00:00.000+00:00",title:"Millencolin - Sense & Sensibility",slug:"millencolin-sense-and-sensibility",tags:["Video","Pop Punk","Music Video"]}}]}},pathContext:{tag:"Pop Punk"}}}});
 //# sourceMappingURL=path---tags-pop-punk-4a49063d5fc9bc35bdef.js.map

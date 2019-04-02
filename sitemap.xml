@@ -102,6 +102,7 @@
 <url> <loc>https://blog.renatoricco.com/100</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/101</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/102</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.renatoricco.com/imposter-syndrome</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/which-legend-of-zelda-game-was-inspired-by-twin-peaks</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/game-studio-with-no-bosses-pays-everyone-the-same</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/thanks-google</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -387,7 +388,7 @@
 <url> <loc>https://blog.renatoricco.com/este-aplicativo-mede-quao-obscuro-e-o-seu-gosto-musical</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/minimalism-is-dead-hello-maximalism</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/why-you-should-read-books-you-hate</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.renatoricco.com/enfim-a-cienciaentendeu</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.renatoricco.com/enfim-a-ciencia-entendeu</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/we-sleep:-on-the-enduring-propheticism-of-john-carpenter&#039;s-they-live</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/beastie-boys-sabotage-all-instruments-out-of-tune</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/post-punk-1981-complete-collection-including-the-briefcase</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -560,7 +561,6 @@
 <url> <loc>https://blog.renatoricco.com/facebook-must-be-accountable-to-the-public-data-society-points</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/refused-coup-d&#039;etat</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/retrospectiva-disseca-evolucao-visual-do-concretismo-de-augusto-de-campos</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.renatoricco.com/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/gasto-seis-horas-no-transporte-publico-todo-dia-o-desafio-da-mobilidade-na-periferia-de-sp</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/1-de-maio-dia-do-trabalhador-dia-de-luto-e-luta</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/italian-tarkovsky-posters-japanese-orson-welles-czech-woody-allen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -966,7 +966,6 @@
 <url> <loc>https://blog.renatoricco.com/cormorant-phalacrocorax-melanoleucos-sandy-scott-991x658</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/grandmas-smoking-weed-for-the-first-time</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/your-business-blog-sucks-here-are-6-reasons-why</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.renatoricco.com/essa-otima-serie-de-gifs-explica-conceitos-do-design-responsivo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/fishbone-when-problems-arise</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/boom-boom-kid-donde</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/descendents-when-i-get-old</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -1112,8 +1111,8 @@
 <url> <loc>https://blog.renatoricco.com/from-me-to-you-by-thelonious</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/volume-i-by-obmj</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/the-art-of-asking-or-amanda-palmer</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://blog.renatoricco.com/tags/via-pocket/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/tags/link/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://blog.renatoricco.com/tags/via-pocket/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/tags/retronaut/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/tags/bandcamp/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://blog.renatoricco.com/tags/noise/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
