@@ -56,7 +56,7 @@ module.exports = {
     },
     `gatsby-plugin-styled-components`,
     'gatsby-plugin-sharp',
-    `gatsby-transformer-screenshot`,
+//     `gatsby-transformer-screenshot`,
     'gatsby-transformer-sharp',
     'gatsby-transformer-yaml',
     {
