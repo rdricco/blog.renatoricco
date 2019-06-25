@@ -144,10 +144,6 @@
       "path---dr-ring-ding-ska-vaganza-the-exorcist-7fad18f36435665a28f9.js",
       "path---dr-ring-ding-ska-vaganza-the-exorcist-7fad18f36435665a28f9.js.map"
     ],
-    "path---what-is-brutalist-design-and-why-we-need-it": [
-      "path---what-is-brutalist-design-and-why-we-need-it-b5692366c0c79db0c78a.js",
-      "path---what-is-brutalist-design-and-why-we-need-it-b5692366c0c79db0c78a.js.map"
-    ],
     "path---ssgs-part-1-static-vs-dynamic-websites": [
       "path---ssgs-part-1-static-vs-dynamic-websites-2de96e00cb67fba5ed3c.js",
       "path---ssgs-part-1-static-vs-dynamic-websites-2de96e00cb67fba5ed3c.js.map"
@@ -724,6 +720,10 @@
       "path---rainer-maria-st-10d210dc58b92b4b2bbd.js",
       "path---rainer-maria-st-10d210dc58b92b4b2bbd.js.map"
     ],
+    "path---brutalist-design-is-the-bad-influence-we-all-need": [
+      "path---brutalist-design-is-the-bad-influence-we-all-need-3cf9008f1cded699aff4.js",
+      "path---brutalist-design-is-the-bad-influence-we-all-need-3cf9008f1cded699aff4.js.map"
+    ],
     "path---84": [
       "path---84-f9eb64cf9dee7b071209.js",
       "path---84-f9eb64cf9dee7b071209.js.map"
@@ -1013,8 +1013,8 @@
       "path---marketing-automation-is-like-a-second-brain-for-your-business-c8b878c3961265a5271e.js.map"
     ],
     "path---tags-via-pocket": [
-      "path---tags-via-pocket-d46d7f8b8514a9a29c06.js",
-      "path---tags-via-pocket-d46d7f8b8514a9a29c06.js.map"
+      "path---tags-via-pocket-8ee05bbbb02d201bd0a4.js",
+      "path---tags-via-pocket-8ee05bbbb02d201bd0a4.js.map"
     ],
     "path---the-international-noise-conspiracy-capitalism-stole-my-virginity": [
       "path---the-international-noise-conspiracy-capitalism-stole-my-virginity-ff128d937f557b18988d.js",
@@ -2485,8 +2485,8 @@
       "path---fishbone-when-problems-arise-e3dd0bed3dff5141f7f8.js.map"
     ],
     "path---8": [
-      "path---8-dbc54a7fe4b88eaabbbf.js",
-      "path---8-dbc54a7fe4b88eaabbbf.js.map"
+      "path---8-856a902d472cc2906e2a.js",
+      "path---8-856a902d472cc2906e2a.js.map"
     ],
     "path---the-end-of-capitalism-has-begun": [
       "path---the-end-of-capitalism-has-begun-31eb3ae851eb91abb727.js",
@@ -4593,8 +4593,8 @@
       "path---the-depressing-truth-about-deleting-your-online-history-e51c16241b2b3f222d98.js.map"
     ],
     "app": [
-      "app-6840762a54543c7e1445.js",
-      "app-6840762a54543c7e1445.js.map"
+      "app-3cd3e7a670c921950843.js",
+      "app-3cd3e7a670c921950843.js.map"
     ],
     "path---entre-rios-a-urbanizacao-de-sao-paulo": [
       "path---entre-rios-a-urbanizacao-de-sao-paulo-193c9639ea3efbb63679.js",
