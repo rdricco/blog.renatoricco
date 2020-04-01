@@ -1,26 +1,45 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# sapper blog example
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+Example blog using Sapper.
 
-## Install
+## Getting started
 
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
+Clone the repo
+
+```
+hub clone joshnuss/sample-blog my-app
 ```
 
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
+### Running the project
+
+Install dependencies and run the project in development mode with:
+
+```bash
+cd my-app
+yarn
+yarn dev
 ```
 
-Then you can run it by:
-```sh
-cd gatsby-example-site
-npm run develop
+Open up [localhost:3000](http://localhost:3000) and start clicking around.
+
+Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
+
+
+## Structure
+
+Posts are stored in the `posts` folder and pages are in the `routes` folder
+
+
+## Production mode and deployment
+
+To generate a production version of your app, run `yarn export` and then deploy it. You can use any host, for example zeit: 
+
+```bash
+npm install -g now
+yarn export
+now
 ```
 
-## Deploy
+## License
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+MIT
