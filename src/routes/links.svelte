@@ -3,8 +3,12 @@
   import Waypoint from "svelte-waypoint";
 </script>
 
-<style>
-
+<style lang="scss">
+  article {
+    a {
+      text-decoration: none;
+    }
+  }
 </style>
 
 <svelte:head>

@@ -2,8 +2,12 @@
   import { posts } from "../posts";
 </script>
 
-<style>
-
+<style lang="scss">
+  article {
+    a {
+      text-decoration: none;
+    }
+  }
 </style>
 
 <svelte:head>
