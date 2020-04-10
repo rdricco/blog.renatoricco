@@ -1,5 +1,6 @@
 <script>
   import { posts } from "../posts";
+  import Waypoint from "svelte-waypoint";
 </script>
 
 <style>
@@ -12,12 +13,14 @@
 
 {#each posts as post}
   {#if post.category == 'link'}
-    <article>
-      <a href={`/posts/${post.permalink}`}>
-        <h2>{post.title}</h2>
-        <span>{post.category}</span>
-        {@html post.html}
-      </a>
-    </article>
+    <Waypoint throttle="500" offset="200">
+      <article>
+        <a href={`/posts/${post.permalink}`}>
+          <h2>{post.title}</h2>
+          <span>{post.category}</span>
+          {@html post.html}
+        </a>
+      </article>
+    </Waypoint>
   {/if}
 {/each}
