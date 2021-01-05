@@ -8,7 +8,7 @@
     "@raygesualdo/gatsby-plugin-settings": "^1.0.2",
     "@sindresorhus/slugify": "^0.2.0",
     "animate-components": "^1.4.8",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "crypto": "^1.0.1",
     "date-fns": "^1.29.0",
     "dotenv": "^5.0.1",
